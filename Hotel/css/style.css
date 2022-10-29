@@ -76,4 +76,83 @@ p{
     overflow: auto;
    padding: 0 20px
 }
+
+.text-primary{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 18px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background:#333;
+    border: none;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+.bg-primary{
+    background:#333;
+    color: #f7c08a;
+
+}
 /* utils class */
+
+
+/* showcase Section */
+
+#showcase{
+    background: url('/image/hotel-2.jpg')  no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+#showcase .showcase-content h1{
+   font-size: 60px;
+   line-height: 1.2em;
+
+}
+#showcase .showcase-content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+
+
+
+}
+#home-info{
+
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+    width:50%;
+    background: url('/image/hotel-3.jpg')no-repeat center center/cover;
+    min-height: 100%;
+
+}
+#home-info .info-content{
+    float: right;
+    width:50%;
+    height: 100%;
+    text-align: center;
+    padding:50px 30px;
+    overflow: hidden;
+}
