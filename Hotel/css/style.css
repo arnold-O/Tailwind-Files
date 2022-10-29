@@ -106,8 +106,8 @@ p{
 
 }
 .bg-primary{
-    background:#333;
-    color: #f7c08a;
+   color :#333;
+    background: #f7c08a;
 
 }
 /* utils class */
@@ -156,3 +156,24 @@ p{
     padding:50px 30px;
     overflow: hidden;
 }
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
+/* Features Section */
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+/* Features Section */
+
