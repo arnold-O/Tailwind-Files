@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: rgb(17, 58, 119);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+
+            box-sizing: border-box;
+        }
+
+        .container-one {
+
+            max-width: 360px;
+            height: 500px;
+            margin: 20px auto;
+
+        }
+
+        .container {
+            background-color: #fff;
+            max-width: 360px;
+            /* height: 500px; */
+            margin: 20px auto;
+
+        }
+
+        .header {
+            text-align: center;
+            padding-top: 20px
+        }
+
+        .header-des {
+            text-align: center;
+        }
+
+        .form-section {
+            max-width: 90%;
+            margin: auto
+        }
+
+        input {
+            display: inline-block;
+            width: 100%;
+            margin: auto;
+            height: 30px;
+            border: 1px solid rgb(224, 217, 217);
+            border-radius: 6px;
+            padding-left: 12px;
+            outline: none;
+            /* box-sizing: border-box; */
+        }
+
+        button {
+            margin-top: 30px;
+            width: 100%;
+            background-color: rgb(77, 214, 77);
+            padding: 12px 0;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            cursor:pointer
+        }
+        button:hover {
+            margin-top: 30px;
+            width: 100%;
+            background-color: rgb(25, 95, 25);
+        }
+
+        h5 {
+            margin-bottom: 4px;
+            color: rgb(82, 76, 76);
+        }
+
+        .terms {
+            text-align: center;
+        }
+        .terms p{
+            font-size: 13px;
+            line-height: 1.5em;
+        }
+
+        .login-div {
+            text-align: center;
+        }
+
+        .login-link {
+            color: rgb(12, 235, 12);
+            text-decoration: none;
+        }
+
+        span {
+            color: #fff
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="container-one">
+            <div class="container">
+                <h3 class="header">Sign Up</h3>
+                <p class="header-des">It's free and only takes a minute</p>
+
+                <form class="form-section">
+
+                    <div class="input-box">
+                        <h5>First Name</h5>
+                        <input type="text" class="firstname">
+                    </div>
+                    <div class="input-box">
+                        <h5>Last Name</h5>
+                        <input type="text">
+                    </div>
+                    <div class="input-box">
+                        <h5>Password</h5>
+                        <input type="text">
+                    </div>
+                    <div class="input-box">
+                        <h5>Confirm Password</h5>
+                        <input type="text">
+                    </div>
+
+                    <button >Sign Up</button>
+
+                    <div class="terms">
+                        <p>By clicking the Sign Up button you agree to our <a href="">Terms & Conditions</a> and 
+                        <a href="">Privacy Policy</a></p>
+                    </div>
+
+
+                </form>
+
+            </div>
+            <div class="login-div">
+
+                <span>Already have an Account? </span><a class="login-link" href="">Login Here</a>
+            </div>
+        </div>
+    </body>
+
+</html>
