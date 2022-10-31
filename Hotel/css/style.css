@@ -5,10 +5,6 @@
 }
 
 
-
-
-
-
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
@@ -110,6 +106,9 @@ p{
     background: #f7c08a;
 
 }
+.clr{
+    clear: both;
+}
 /* utils class */
 
 
@@ -167,6 +166,7 @@ p{
     padding: 50px;
     text-align: center;
 
+
 }
 
 
@@ -177,3 +177,14 @@ p{
 
 /* Features Section */
 
+
+/* footer */
+
+
+#main-footer{
+    text-align: center;
+    background-color: #444;
+    color:#fff;
+    padding: 20px;
+}
+/* footer */
