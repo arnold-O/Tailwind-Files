@@ -224,3 +224,30 @@ p{
     min-height:100%
 }
 /* About section */
+
+
+/* testimonials */
+#testimonials{
+    height: 600px;
+    background: url(/image/hotel.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    opacity: 0.9;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#testimonials  h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* testimonials */
