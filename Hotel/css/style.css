@@ -109,6 +109,19 @@ p{
 .clr{
     clear: both;
 }
+.py-1{
+    padding: 10px 0;
+}
+.py-2{
+    padding: 20px 0;
+}
+.py-3{
+    padding: 30px 0;
+}
+
+.l-heading{
+    font-size: 40px;
+}
 /* utils class */
 
 
@@ -158,6 +171,7 @@ p{
 #home-info .info-content p{
   padding-bottom: 30px;
 }
+
 /* Features Section */
 
 .box {
@@ -171,20 +185,42 @@ p{
 
 
 
-
-
-
-
 /* Features Section */
 
 
 /* footer */
 
 
-#main-footer{
+ #main-footer{
     text-align: center;
-    background-color: #444;
-    color:#fff;
-    padding: 20px;
-}
+    background-color: #444;  
+    padding: 20px; 
+    color:#fff; 
+    
+}         
+
 /* footer */
+
+
+
+/* About section */
+
+
+#about-info .info-right{
+    float:right;
+    width:50%;
+    min-height:100%
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .info-left{
+    float:left;
+    width:50%;
+    min-height:100%
+}
+/* About section */
