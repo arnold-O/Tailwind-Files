@@ -121,6 +121,7 @@ p{
 
 .l-heading{
     font-size: 40px;
+    line-height: 1.2;
 }
 /* utils class */
 
@@ -151,7 +152,7 @@ p{
 }
 #home-info{
 
-    height: 400px;
+    height: 450px;
 }
 #home-info .info-img{
     float: left;
@@ -169,7 +170,7 @@ p{
     overflow: hidden;
 }
 #home-info .info-content p{
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 /* Features Section */
@@ -228,7 +229,7 @@ p{
 
 /* testimonials */
 #testimonials{
-    height: 600px;
+    height: 100%;
     background: url(/image/hotel.jpg) no-repeat center center/cover;
     padding-top: 100px;
 }
