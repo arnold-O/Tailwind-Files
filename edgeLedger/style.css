@@ -54,7 +54,7 @@ img{
     width:100%;
     height: 70px;
     position: fixed;
-    top: opx;
+    top: 0px;
     padding: 0 30px;
 }
 
@@ -85,9 +85,6 @@ img{
     position: relative;
     color: #fff;
 }
-
-
-
 .hero .content{
     display: flex;
     flex-direction: column;
@@ -121,3 +118,19 @@ img{
 }
 
 /* Header */
+
+.icons{
+    padding:30px
+}
+.icons h3{
+    font-weight:bold;
+}
+.icons i{
+   background-color: #28a745;
+   color: #fff;
+   padding: 1rem;
+   border-radius: 50%;
+   margin-bottom: 15px;
+
+
+}

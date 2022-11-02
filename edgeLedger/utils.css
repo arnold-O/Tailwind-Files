@@ -8,8 +8,6 @@
 }
 /* Text Colores */
 
-
-
 /* Btn */
 
 .btn{
@@ -46,3 +44,31 @@
     color:#333
 }
 /* Btn */
+
+
+/* flex Items */
+
+.flex-items{
+   
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 20px;
+
+}
+
+.flex-items > div{
+   
+    padding:  20px;
+
+}
+
+.flex-columns{
+    display: flex;
+}
+
+
+/* flex Items */
