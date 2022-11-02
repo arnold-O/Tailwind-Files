@@ -274,4 +274,7 @@ p{
     border-color: #f7c08a;
 
 }
+.form-group textarea{
+    resize: none;
+}
 /* Contact Form */
