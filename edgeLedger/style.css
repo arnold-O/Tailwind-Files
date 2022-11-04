@@ -134,3 +134,14 @@ img{
 
 
 }
+
+
+.cases img{
+    width:100%;
+   
+   
+}
+.cases img:hover {
+    opacity: 0.7;
+    width:100%
+}
