@@ -187,3 +187,25 @@ img{
 
 
 /* contact Us */
+
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.footer a{
+    color: #fff;
+    margin: 10px;
+
+}
+.footer a:hover{
+    color: #28a745;
+  
+
+}
+/* Footer */
