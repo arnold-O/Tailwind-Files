@@ -59,14 +59,12 @@
 }
 
 .flex-items{
-   
     display: flex;
-  
     align-items: center;
     justify-content: center;
     text-align: center;
     height: 100%;
-    padding: 0 20px;
+    padding: 0 20px
 
 }
 
