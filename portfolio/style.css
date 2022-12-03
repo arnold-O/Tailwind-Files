@@ -100,6 +100,11 @@ body{
     animation:para var(--animate-speed) forwards ease-in-out 2s
 
 }
+#page-1 .btn-1{
+    transform: translateY(1800px);
+    animation:para var(--animate-speed) forwards ease-in-out 3s
+
+}
 
 
 @keyframes heading {
@@ -110,6 +115,12 @@ body{
 }
 
 @keyframes para {
+    to{
+
+        transform: translateX(0);
+    }
+}
+@keyframes page-1-btn {
     to{
 
         transform: translateX(0);
