@@ -16,3 +16,53 @@ body{
     box-sizing: border-box;
     overflow: hidden;
 }
+
+
+
+/* page Colors */
+
+#page-1 {
+    background: var(--page-1-color);
+}
+
+#page-2 {
+    background: var(--page-2-color);
+}
+
+#page-3 {
+    background: var(--page-3-color);
+}
+
+#page-4 {
+    background: var(--page-4-color);
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.page h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 1rem
+}
+
+.page p{
+    font-size: 1.3rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
