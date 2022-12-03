@@ -3,7 +3,7 @@
     --page-2-color : tan;
     --page-3-color : teal;
     --page-4-color : slateblue;
-    --animate-speed : 1s
+    --animate-speed : 2s
 
 }
 
@@ -57,12 +57,62 @@ body{
     font-size: 1.3rem;
 }
 
+
 .btn{
     display: inline-block;
     padding: 1rem 2rem;
     color: #333;
+    background: #f4f4f4;
     text-decoration: none;
     border: none;
     margin-top: 1rem;
     font-size: 1.1rem;
+    transition: all .4s ease-in-out;
+
+}
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #333;
+    color: #fff;
+}
+.btn-dark:hover{
+    background: #f4f4f4;
+    color: #333;
+}
+.orange{
+    color: orange;
+    font-size: 30px;
+}
+
+
+/* animation */
+
+#page-1 h1{
+    transform: translateY(-1200px);
+    animation:heading var(--animate-speed) forwards ease-in-out
+
+}
+#page-1 p{
+    transform: translateX(-1800px);
+    animation:para var(--animate-speed) forwards ease-in-out 2s
+
+}
+
+
+@keyframes heading {
+    to{
+
+        transform: translateY(0);
+    }
+}
+
+@keyframes para {
+    to{
+
+        transform: translateX(0);
+    }
 }
