@@ -97,12 +97,12 @@ body{
 }
 #page-1 p{
     transform: translateX(-1800px);
-    animation:para var(--animate-speed) forwards ease-in-out 2s
+    animation:para var(--animate-speed) forwards ease-in-out 1s
 
 }
 #page-1 .btn-1{
     transform: translateY(1800px);
-    animation:para var(--animate-speed) forwards ease-in-out 3s
+    animation:para var(--animate-speed) forwards ease-in-out 1.2s
 
 }
 
