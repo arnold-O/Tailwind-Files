@@ -1,5 +1,5 @@
 :root{
-    --page-1-color : steelblue;
+    --page-1-color : #333;
     --page-2-color : tan;
     --page-3-color : teal;
     --page-4-color : slateblue;
@@ -87,7 +87,7 @@ body{
     font-size: 30px;
 }
 
-
+ 
 /* animation */
 
 #page-1 h1{
